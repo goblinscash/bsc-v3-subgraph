@@ -14,14 +14,14 @@ export const STABLECOIN_IS_TOKEN0 = true
 // usually tokens that many tokens are paired with s
 export const WHITELIST_TOKENS: string[] = [
   WETH_ADDRESS, // WETH
-  '0x55d398326f99059ff775485246999027b3197955', // USDT
+  '0x55d398326f99059fF775485246999027B3197955', // USDT
   '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', // USDC
   // '0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf', // TANGO
 ]
 
 export const STABLE_COINS: string[] = [
-  '0x55d398326f99059ff775485246999027b3197955', // USDT
-  '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', // USDC
+  '0x55d398326f99059fF775485246999027B3197955', // USDT
+  // '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', // USDC
 ]
 
 export const MINIMUM_ETH_LOCKED = BigDecimal.fromString('1')

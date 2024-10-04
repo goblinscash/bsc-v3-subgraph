@@ -7,18 +7,18 @@ import { Pool, Token } from '../src/types/schema'
 import { SubgraphConfig } from '../src/utils/chains'
 import { ZERO_BD, ZERO_BI } from '../src/utils/constants'
 
-const FACTORY_ADDRESS = '0x1F98431c8aD98523631AE4a59f267346ea31F984'
-const USDC_MAINNET_ADDRESS = '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'
-const WETH_MAINNET_ADDRESS = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
+const FACTORY_ADDRESS = '0x30D9e1f894FBc7d2227Dd2a017F955d5586b1e14'
+const USDC_MAINNET_ADDRESS = '0x55d398326f99059fF775485246999027B3197955'
+const WETH_MAINNET_ADDRESS = '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c'
 const WBTC_MAINNET_ADDRESS = '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599'
-export const USDC_WETH_03_MAINNET_POOL = '0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8'
+export const USDC_WETH_03_MAINNET_POOL = '0x60865608e4968a1a5da43C038aff0F9F90e5B8D4'
 export const WBTC_WETH_03_MAINNET_POOL = '0xcbcdf9626bc03e24f779434178a73a0b4bad62ed'
-export const POOL_FEE_TIER_03 = 3000
+export const POOL_FEE_TIER_03 = 100
 
 export const TEST_CONFIG: SubgraphConfig = {
   factoryAddress: FACTORY_ADDRESS,
   stablecoinWrappedNativePoolAddress: USDC_WETH_03_MAINNET_POOL,
-  stablecoinIsToken0: false,
+  stablecoinIsToken0: true,
   wrappedNativeAddress: WETH_MAINNET_ADDRESS,
   minimumNativeLocked: ZERO_BD,
   poolsToSkip: [],
@@ -32,7 +32,7 @@ export const TEST_CONFIG: SubgraphConfig = {
 export const TEST_CONFIG_WITH_NO_WHITELIST: SubgraphConfig = {
   factoryAddress: FACTORY_ADDRESS,
   stablecoinWrappedNativePoolAddress: USDC_WETH_03_MAINNET_POOL,
-  stablecoinIsToken0: false,
+  stablecoinIsToken0: true,
   wrappedNativeAddress: WETH_MAINNET_ADDRESS,
   minimumNativeLocked: ZERO_BD,
   poolsToSkip: [],
@@ -46,7 +46,7 @@ export const TEST_CONFIG_WITH_NO_WHITELIST: SubgraphConfig = {
 export const TEST_CONFIG_WITH_POOL_SKIPPED: SubgraphConfig = {
   factoryAddress: FACTORY_ADDRESS,
   stablecoinWrappedNativePoolAddress: USDC_WETH_03_MAINNET_POOL,
-  stablecoinIsToken0: false,
+  stablecoinIsToken0: true,
   wrappedNativeAddress: WETH_MAINNET_ADDRESS,
   minimumNativeLocked: ZERO_BD,
   poolsToSkip: [],
