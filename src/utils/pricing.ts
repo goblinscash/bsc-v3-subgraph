@@ -7,21 +7,18 @@ import { ONE_BD, ZERO_BD, ZERO_BI } from './constants'
 // export const WETH_ADDRESS = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
 // export const USDC_WETH_03_POOL = '0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8'
 export const WETH_ADDRESS = '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c'
-export const USDC_WETH_03_POOL = '0x60865608e4968a1a5da43C038aff0F9F90e5B8D4'
+export const USDC_WETH_03_POOL = '0x77137fb71d8193070d1f15e8581d00a4b633c1a5'
 export const STABLECOIN_IS_TOKEN0 = true
 
 // token where amounts should contribute to tracked volume and liquidity
 // usually tokens that many tokens are paired with s
 export const WHITELIST_TOKENS: string[] = [
   WETH_ADDRESS, // WETH
-  '0x55d398326f99059fF775485246999027B3197955', // USDT
-  '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', // USDC
-  // '0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf', // TANGO
+  '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d',
 ]
 
 export const STABLE_COINS: string[] = [
-  '0x55d398326f99059fF775485246999027B3197955', // USDT
-  // '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', // USDC
+  '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d',
 ]
 
 export const MINIMUM_ETH_LOCKED = BigDecimal.fromString('1')

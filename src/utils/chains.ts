@@ -182,19 +182,18 @@ export function getSubgraphConfig(): SubgraphConfig {
   } 
   else if (selectedNetwork == BSC_NETWORK_NAME) {
     return {
-      factoryAddress: '0x30D9e1f894FBc7d2227Dd2a017F955d5586b1e14',
-      stablecoinWrappedNativePoolAddress: '0x60865608e4968a1a5da43C038aff0F9F90e5B8D4', // USDC-WBNB 0.3% pool
+      factoryAddress: '0x30d9e1f894fbc7d2227dd2a017f955d5586b1e14',
+      stablecoinWrappedNativePoolAddress: '0x77137fb71d8193070d1f15e8581d00a4b633c1a5', // USDC-WBNB 0.3% pool
       stablecoinIsToken0: true,
-      wrappedNativeAddress: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', // WBNB
+      wrappedNativeAddress: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', // WBNB
       minimumNativeLocked: BigDecimal.fromString('1'),
       stablecoinAddresses: [
-        '0x55d398326f99059fF775485246999027B3197955', // USDT
+        '0x55d398326f99059ff775485246999027b3197955', // USDT
+        '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', // USDC
       ],
       whitelistTokens: [
-        '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', // WBNB
-        '0x55d398326f99059fF775485246999027B3197955', // USDT
+        '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', // WBNB
         '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', // USDC
-        '0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf', // BCH
       ],
       tokenOverrides: [],
       poolsToSkip: [],
