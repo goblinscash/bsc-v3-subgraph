@@ -194,6 +194,10 @@ export function getSubgraphConfig(): SubgraphConfig {
       whitelistTokens: [
         '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', // WBNB
         '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', // USDC
+        '0x25d887ce7a35172c62febfd67a1856f20faebb00', // PEPE
+        '0x8ff795a6f4d97e7887c79bea79aba5cc76444adf', // BCH
+        '0xba2ae424d960c26247dd6c32edc70b295c744c43', // DOGE
+        '0xfb5b838b6cfeedc2873ab27866079ac55363d37e', // FLOKI
       ],
       tokenOverrides: [],
       poolsToSkip: [],
