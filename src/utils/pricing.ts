@@ -20,6 +20,9 @@ export const WHITELIST_TOKENS: string[] = [
   '0x8ff795a6f4d97e7887c79bea79aba5cc76444adf', // BCH
   '0xba2ae424d960c26247dd6c32edc70b295c744c43', // DOGE
   '0xfb5b838b6cfeedc2873ab27866079ac55363d37e', // FLOKI
+  '0x2859e4544c4bb03966803b044a93563bd2d0dd4d', // SHIB
+  '0xa697e272a73744b343528c3bc4702f2565b2f422', // BONK
+  '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3', // DAI
 ]
 
 export const STABLE_COINS: string[] = [
