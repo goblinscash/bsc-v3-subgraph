@@ -23,6 +23,7 @@ export const WHITELIST_TOKENS: string[] = [
   '0x2859e4544c4bb03966803b044a93563bd2d0dd4d', // SHIB
   '0xa697e272a73744b343528c3bc4702f2565b2f422', // BONK
   '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3', // DAI
+  '0x701aca29ae0f5d24555f1e8a6cf007541291d110', // GOB
 ]
 
 export const STABLE_COINS: string[] = [
@@ -30,7 +31,7 @@ export const STABLE_COINS: string[] = [
   '0x55d398326f99059ff775485246999027b3197955',
 ]
 
-export const MINIMUM_ETH_LOCKED = BigDecimal.fromString('0.1')
+export const MINIMUM_ETH_LOCKED = BigDecimal.fromString('0.001')
 
 const Q192 = BigInt.fromI32(2).pow(192 as u8)
 export function sqrtPriceX96ToTokenPrices(sqrtPriceX96: BigInt, token0: Token, token1: Token): BigDecimal[] {

@@ -186,7 +186,7 @@ export function getSubgraphConfig(): SubgraphConfig {
       stablecoinWrappedNativePoolAddress: '0x77137fb71d8193070d1f15e8581d00a4b633c1a5', // USDC-WBNB 0.3% pool
       stablecoinIsToken0: true,
       wrappedNativeAddress: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', // WBNB
-      minimumNativeLocked: BigDecimal.fromString('0.1'),
+      minimumNativeLocked: BigDecimal.fromString('0.001'),
       stablecoinAddresses: [
         '0x55d398326f99059ff775485246999027b3197955', // USDT
         '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', // USDC
@@ -194,6 +194,7 @@ export function getSubgraphConfig(): SubgraphConfig {
       whitelistTokens: [
         '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', // WBNB
         '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', // USDC
+        '0x55d398326f99059ff775485246999027b3197955', // USDT
         '0x25d887ce7a35172c62febfd67a1856f20faebb00', // PEPE
         '0x8ff795a6f4d97e7887c79bea79aba5cc76444adf', // BCH
         '0xba2ae424d960c26247dd6c32edc70b295c744c43', // DOGE
@@ -201,6 +202,7 @@ export function getSubgraphConfig(): SubgraphConfig {
         '0x2859e4544c4bb03966803b044a93563bd2d0dd4d', // SHIB
         '0xa697e272a73744b343528c3bc4702f2565b2f422', // BONK
         '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3', // DAI
+        '0x701aca29ae0f5d24555f1e8a6cf007541291d110', // GOB
       ],
       tokenOverrides: [],
       poolsToSkip: [],
