@@ -6,14 +6,14 @@ import { ONE_BD, ZERO_BD, ZERO_BI } from './constants'
 
 // export const WETH_ADDRESS = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
 // export const USDC_WETH_03_POOL = '0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8'
-export const WETH_ADDRESS = '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c'
-export const USDC_WETH_03_POOL = '0x77137fb71d8193070d1f15e8581d00a4b633c1a5'
+export const WETH_ADDRESS = '0x8ff795a6f4d97e7887c79bea79aba5cc76444adf'
+export const USDC_WETH_03_POOL = '0x4b275192c2a0208931c5a6c36c3bcc15bc422e05'
 export const STABLECOIN_IS_TOKEN0 = true
 
 // token where amounts should contribute to tracked volume and liquidity
 // usually tokens that many tokens are paired with s
 export const WHITELIST_TOKENS: string[] = [
-  WETH_ADDRESS, // WETH
+  '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', // WETH
   '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', // USDC
   '0x55d398326f99059ff775485246999027b3197955', // USDT
   '0x25d887ce7a35172c62febfd67a1856f20faebb00', // PEPE

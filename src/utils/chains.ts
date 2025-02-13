@@ -183,9 +183,9 @@ export function getSubgraphConfig(): SubgraphConfig {
   else if (selectedNetwork == BSC_NETWORK_NAME) {
     return {
       factoryAddress: '0x30d9e1f894fbc7d2227dd2a017f955d5586b1e14',
-      stablecoinWrappedNativePoolAddress: '0x77137fb71d8193070d1f15e8581d00a4b633c1a5', // USDC-WBNB 0.3% pool
+      stablecoinWrappedNativePoolAddress: '0x4b275192c2a0208931c5a6c36c3bcc15bc422e05', // USDC-WBNB 0.3% pool
       stablecoinIsToken0: true,
-      wrappedNativeAddress: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', // WBNB
+      wrappedNativeAddress: '0x8ff795a6f4d97e7887c79bea79aba5cc76444adf', // WBNB
       minimumNativeLocked: BigDecimal.fromString('0.001'),
       stablecoinAddresses: [
         '0x55d398326f99059ff775485246999027b3197955', // USDT
